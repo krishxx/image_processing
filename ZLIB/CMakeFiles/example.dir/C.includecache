@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antworks/Downloads/Windows/ZLIB/test/example.c
+zlib.h
+/home/antworks/Downloads/Windows/ZLIB/test/zlib.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+zconf.h
+windows.h
+-
+limits.h
+-
+sys/types.h
+-
+stdarg.h
+-
+stddef.h
+-
+unistd.h
+-
+unixio.h
+-
+
+zlib.h
+zconf.h
+zconf.h
+

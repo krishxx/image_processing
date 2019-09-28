@@ -1,0 +1,49 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_d58f1/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_d58f1.dir\build.make CMakeFiles/cmTC_d58f1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d58f1.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='C:/antworks/libpng-1.6.36/build/conftest.map'   -o CMakeFiles\cmTC_d58f1.dir\src.c.obj   -c C:\antworks\libpng-1.6.36\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_d58f1.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d58f1.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d58f1.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_d58f1.dir/objects.a @CMakeFiles\cmTC_d58f1.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='C:/antworks/libpng-1.6.36/build/conftest.map'    -Wl,--whole-archive CMakeFiles\cmTC_d58f1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d58f1.exe -Wl,--out-implib,libcmTC_d58f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d58f1.dir\linklibs.rsp
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot open linker script file 'C:/antworks/libpng-1.6.36/build/conftest.map': Invalid argument
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_d58f1.dir\build.make:88: cmTC_d58f1.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_d58f1/fast] Error 2
+
+
+Source file was:
+void sym(void) {}
+void sym2(void) {}
+int main(void) {return 0;}
+
+Performing C SOURCE FILE Test HAVE_SOLARIS_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_faa93/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_faa93.dir\build.make CMakeFiles/cmTC_faa93.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa93.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -DHAVE_SOLARIS_LD_VERSION_SCRIPT -Wl,-M -Wl,C:/antworks/libpng-1.6.36/build/conftest.map   -o CMakeFiles\cmTC_faa93.dir\src.c.obj   -c C:\antworks\libpng-1.6.36\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_faa93.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_faa93.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_faa93.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_faa93.dir/objects.a @CMakeFiles\cmTC_faa93.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -DHAVE_SOLARIS_LD_VERSION_SCRIPT -Wl,-M -Wl,C:/antworks/libpng-1.6.36/build/conftest.map    -Wl,--whole-archive CMakeFiles\cmTC_faa93.dir/objects.a -Wl,--no-whole-archive  -o cmTC_faa93.exe -Wl,--out-implib,libcmTC_faa93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_faa93.dir\linklibs.rsp
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe:C:/antworks/libpng-1.6.36/build/conftest.map: file format not recognized; treating as linker script
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe:C:/antworks/libpng-1.6.36/build/conftest.map:1: syntax error
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_faa93.dir\build.make:88: cmTC_faa93.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/libpng-1.6.36/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_faa93/fast] Error 2
+
+
+Source file was:
+void sym(void) {}
+void sym2(void) {}
+int main(void) {return 0;}
+

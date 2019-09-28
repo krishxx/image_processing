@@ -1,0 +1,13 @@
+C:/antworks/ZLIB/build/CMakeFiles/minigzip64.dir
+C:/antworks/ZLIB/build/CMakeFiles/zlib.dir
+C:/antworks/ZLIB/build/CMakeFiles/zlibstatic.dir
+C:/antworks/ZLIB/build/CMakeFiles/example.dir
+C:/antworks/ZLIB/build/CMakeFiles/minigzip.dir
+C:/antworks/ZLIB/build/CMakeFiles/example64.dir
+C:/antworks/ZLIB/build/CMakeFiles/test.dir
+C:/antworks/ZLIB/build/CMakeFiles/edit_cache.dir
+C:/antworks/ZLIB/build/CMakeFiles/rebuild_cache.dir
+C:/antworks/ZLIB/build/CMakeFiles/list_install_components.dir
+C:/antworks/ZLIB/build/CMakeFiles/install/local.dir
+C:/antworks/ZLIB/build/CMakeFiles/install.dir
+C:/antworks/ZLIB/build/CMakeFiles/install/strip.dir

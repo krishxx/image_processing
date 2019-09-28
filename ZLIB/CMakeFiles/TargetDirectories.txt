@@ -1,0 +1,13 @@
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/rebuild_cache.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/install.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/minigzip.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/example.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/zlibstatic.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/zlib.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/example64.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/list_install_components.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/install/strip.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/install/local.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/minigzip64.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/test.dir
+/home/antworks/Downloads/Windows/ZLIB/CMakeFiles/edit_cache.dir

@@ -1,0 +1,17 @@
+C:/antworks/libpng-1.6.36/build/CMakeFiles/png-fix-itxt.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngtest.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/install/local.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/install.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/genfiles.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/png.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/png_static.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngvalid.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngunknown.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/rebuild_cache.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngstest.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngimage.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/pngfix.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/test.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/edit_cache.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/list_install_components.dir
+C:/antworks/libpng-1.6.36/build/CMakeFiles/install/strip.dir

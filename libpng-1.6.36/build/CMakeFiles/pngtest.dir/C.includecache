@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/zlib/include/zconf.h
+windows.h
+-
+limits.h
+-
+sys/types.h
+-
+stdarg.h
+-
+stddef.h
+-
+unistd.h
+-
+unixio.h
+-
+
+C:/Program Files (x86)/zlib/include/zlib.h
+zconf.h
+C:/Program Files (x86)/zlib/include/zconf.h
+
+C:/antworks/libpng-1.6.36/png.h
+pnglibconf.h
+C:/antworks/libpng-1.6.36/pnglibconf.h
+pngconf.h
+C:/antworks/libpng-1.6.36/pngconf.h
+
+C:/antworks/libpng-1.6.36/pngconf.h
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+setjmp.h
+-
+time.h
+-
+
+C:/antworks/libpng-1.6.36/pngtest.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+png.h
+C:/antworks/libpng-1.6.36/png.h
+zlib.h
+C:/antworks/libpng-1.6.36/zlib.h
+time.h
+-
+
+pnglibconf.h
+

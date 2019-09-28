@@ -1,0 +1,147 @@
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_e50ad/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e50ad.dir\build.make CMakeFiles/cmTC_e50ad.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e50ad.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_e50ad.dir\CheckIncludeFile.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: dlfcn.h: No such file or directory
+ #include <dlfcn.h>
+          ^~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e50ad.dir\build.make:65: CMakeFiles/cmTC_e50ad.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_e50ad/fast] Error 2
+
+
+
+Determining if the mmap exist failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_576ed/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_576ed.dir\build.make CMakeFiles/cmTC_576ed.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576ed.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_576ed.dir\CheckSymbolExists.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/mman.h: No such file or directory
+ #include <sys/mman.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_576ed.dir\build.make:65: CMakeFiles/cmTC_576ed.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_576ed/fast] Error 2
+
+
+File C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the jbg_newlen exist failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_39a64/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_39a64.dir\build.make CMakeFiles/cmTC_39a64.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39a64.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_39a64.dir\CheckSymbolExists.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: jbig.h: No such file or directory
+ #include <jbig.h>
+          ^~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_39a64.dir\build.make:65: CMakeFiles/cmTC_39a64.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_39a64/fast] Error 2
+
+
+File C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <jbig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef jbg_newlen
+  return ((int*)(&jbg_newlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_51ba5/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_51ba5.dir\build.make CMakeFiles/cmTC_51ba5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51ba5.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_51ba5.dir\CheckIncludeFile.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: GL/glut.h: No such file or directory
+ #include <GL/glut.h>
+          ^~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_51ba5.dir\build.make:65: CMakeFiles/cmTC_51ba5.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_51ba5/fast] Error 2
+
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_3e7c4/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3e7c4.dir\build.make CMakeFiles/cmTC_3e7c4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e7c4.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_3e7c4.dir\CheckIncludeFile.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: GLUT/glut.h: No such file or directory
+ #include <GLUT/glut.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_3e7c4.dir\build.make:65: CMakeFiles/cmTC_3e7c4.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_3e7c4/fast] Error 2
+
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_7a8af/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a8af.dir\build.make CMakeFiles/cmTC_7a8af.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a8af.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_7a8af.dir\CheckIncludeFile.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: OpenGL/gl.h: No such file or directory
+ #include <OpenGL/gl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7a8af.dir\build.make:65: CMakeFiles/cmTC_7a8af.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_7a8af/fast] Error 2
+
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_038ac/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_038ac.dir\build.make CMakeFiles/cmTC_038ac.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_038ac.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles\cmTC_038ac.dir\CheckIncludeFile.c.obj   -c C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\antworks\tiff-4.0.10\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: OpenGL/glu.h: No such file or directory
+ #include <OpenGL/glu.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_038ac.dir\build.make:65: CMakeFiles/cmTC_038ac.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/antworks/tiff-4.0.10/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_038ac/fast] Error 2
+
+
+
